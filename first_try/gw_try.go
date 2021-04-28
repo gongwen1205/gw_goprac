@@ -1,5 +1,5 @@
 package main
-
+//add log2
 import (
 	"fmt"
 	"runtime"
