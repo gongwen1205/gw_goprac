@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c1dba8e2-f23a-4549-880c-2e2f05ffbeca" name="gongwen.1205" url="http://10.248.136.59/">
+        <fileTransfer accessType="SFTP" host="10.248.136.59" port="22" sshConfigId="bf896eb8-5a98-4b04-89c5-e9687fd279cb" sshConfig="gongwen.1205@10.248.136.59:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
