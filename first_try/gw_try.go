@@ -10,6 +10,10 @@ type T struct{
 	value int //value of the object
 
 }
+type BT struct{
+left BT//left child
+right BT//right child
+}
 func main() {
 	fmt.Print("Go runs on ")
 	switch os := runtime.GOOS; os {
