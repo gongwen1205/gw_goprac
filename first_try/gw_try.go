@@ -28,6 +28,10 @@ var a float=1.0
 a=a*3
 return a
 }
+func getbool(){
+var a bool=1
+return a
+}
 func getnu() int{
 a:=0
 a=rand.Intn(10)
