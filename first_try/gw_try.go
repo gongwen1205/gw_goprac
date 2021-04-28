@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"runtime"
+"math/rand"
 )
 
 type T struct{
@@ -13,6 +14,11 @@ type T struct{
 type BT struct{
 left BT//left child
 right BT//right child
+}
+func getnu() int{
+a:=0
+a=rand.Intn(10)
+return a
 }
 func main() {
 	fmt.Print("Go runs on ")
