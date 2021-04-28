@@ -23,7 +23,11 @@ a+='c'
 }
 return a
 }
-
+func getfloat(){
+var a float=1.0
+a=a*3
+return a
+}
 func getnu() int{
 a:=0
 a=rand.Intn(10)
