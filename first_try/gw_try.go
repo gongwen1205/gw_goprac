@@ -33,6 +33,7 @@ var a float=1.0
 a=a*3
 return a
 }
+//add bool log
 func getbool(){
 var a bool=1
 return a
