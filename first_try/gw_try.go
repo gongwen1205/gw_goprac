@@ -20,6 +20,7 @@ type DL struct{
 prev DL
 next DL
 }
+//add log
 func getstr(){
 var a string="123"
 for i:= range 10{
