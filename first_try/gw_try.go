@@ -15,11 +15,21 @@ type BT struct{
 left BT//left child
 right BT//right child
 }
+
+func getstr(){
+var a string="123"
+for i:= range 10{
+a+='c'
+}
+return a
+}
+
 func getnu() int{
 a:=0
 a=rand.Intn(10)
 return a
 }
+
 func main() {
 	fmt.Print("Go runs on ")
 	switch os := runtime.GOOS; os {
