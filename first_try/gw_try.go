@@ -15,7 +15,11 @@ type BT struct{
 left BT//left child
 right BT//right child
 }
-
+//add struct
+type DL struct{
+prev DL
+next DL
+}
 func getstr(){
 var a string="123"
 for i:= range 10{
