@@ -1,5 +1,7 @@
 package main
 //add log2
+//add log5
+//add log3
 import (
 	"fmt"
 	"runtime"
